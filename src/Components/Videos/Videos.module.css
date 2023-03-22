@@ -1,0 +1,19 @@
+.videos {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.videos_fullCard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120rem;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 940px) {
+  .videos_fullCard {
+    width: 100vw;
+  }
+}

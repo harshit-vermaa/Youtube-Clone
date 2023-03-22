@@ -1,0 +1,13 @@
+.channelDetails {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.channelDetails_profile {
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
